@@ -1,19 +1,22 @@
 {
-  "name": "graphql-apollo-server",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "@prisma/client": "^2.24.1",
-    "apollo-server": "^2.25.0",
-    "graphql": "^15.5.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7",
-    "prima": "^0.0.1"
-  }
+    "name": "graphql-apollo-server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon index.js",
+        "start": "node index.js",
+        "dev:rest": "nodemon rest.js",
+        "start:rest": "node rest.js"
+    },
+    "dependencies": {
+        "@prisma/client": "^2.24.1",
+        "apollo-server": "^2.25.0",
+        "express": "^4.17.1",
+        "graphql": "^15.5.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7",
+        "prima": "^0.0.1"
+    }
 }
